@@ -25,13 +25,13 @@ Zenkaku to Hankaku
 .. code-block:: python
 
     >>> import mojimoji
-    >>> print mojimoji.zen_to_han(u'アイウａｂｃ０１２')
+    >>> print(mojimoji.zen_to_han(u'アイウａｂｃ０１２'))
     ｱｲｳabc012
-    >>> print mojimoji.zen_to_han(u'アイウａｂｃ０１２', kana=False)
+    >>> print(mojimoji.zen_to_han(u'アイウａｂｃ０１２', kana=False))
     アイウabc012
-    >>> print mojimoji.zen_to_han(u'アイウａｂｃ０１２', digit=False)
+    >>> print(mojimoji.zen_to_han(u'アイウａｂｃ０１２', digit=False))
     ｱｲｳabc０１２
-    >>> print mojimoji.zen_to_han(u'アイウａｂｃ０１２', ascii=False)
+    >>> print(mojimoji.zen_to_han(u'アイウａｂｃ０１２', ascii=False))
     ｱｲｳａｂｃ012
 
 Hankaku to Zenkaku
@@ -40,13 +40,13 @@ Hankaku to Zenkaku
 .. code-block:: python
 
     >>> import mojimoji
-    >>> print mojimoji.han_to_zen(u'ｱｲｳabc012')
+    >>> print(mojimoji.han_to_zen(u'ｱｲｳabc012'))
     アイウａｂｃ０１２
-    >>> print mojimoji.han_to_zen(u'ｱｲｳabc012', kana=False)
+    >>> print(mojimoji.han_to_zen(u'ｱｲｳabc012', kana=False))
     ｱｲｳａｂｃ０１２
-    >>> print mojimoji.han_to_zen(u'ｱｲｳabc012', digit=False)
+    >>> print(mojimoji.han_to_zen(u'ｱｲｳabc012', digit=False))
     アイウａｂｃ012
-    >>> print mojimoji.han_to_zen(u'ｱｲｳabc012', ascii=False)
+    >>> print(mojimoji.han_to_zen(u'ｱｲｳabc012', ascii=False))
     アイウabc０１２
 
 
